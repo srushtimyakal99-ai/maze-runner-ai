@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #050810;
+    color: white;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background: #0e1320;
+    border-bottom: 2px solid #1e91ff;
+}
+
+header h1 {
+    color: #1e91ff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #c8d0df;
+    font-size: 18px;
+}
+
+main {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+#gameCanvas {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    border: 3px solid #414b64;
+    box-shadow: 0 0 30px rgba(30, 145, 255, 0.25);
+}
+
+.about {
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.about h2 {
+    color: #23e16e;
+    margin-bottom: 15px;
+}
+
+.about > p {
+    color: #c8d0df;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 280px;
+    padding: 25px;
+    background: #0e1320;
+    border: 1px solid #414b64;
+    border-radius: 12px;
+}
+
+.card h3 {
+    color: #ffd737;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #c8d0df;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #0e1320;
+    color: #8f9ab0;
+}
